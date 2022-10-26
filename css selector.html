@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        h1{
+            font-size: 1cm;
+            color: black;
+
+        }
+        div,
+        span {
+             background-color: blueviolet;
+             font-size: 0.5cm;
+        }
+        li:hover{background-color: aquamarine;
+            color: rgb(62, 33, 2);
+
+        }
+        ul li{
+            border-color: rgb(144, 67, 216);
+            color: rgb(18, 18, 37);
+        }
+        p{
+            background-color: rgb(39, 148, 112);
+            font-style: inherit;
+            width: 300px;
+            padding: 40px;
+            border: 0.5ch solid black;
+
+        }
+span>strong{
+ font-style: italic;
+}
+#id1{
+    background-color: aqua;
+    width: 600px;
+    font-style: oblique;
+}
+div.id1>span{
+    font-size: 1cm;
+    
+}
+marquee{
+    font-size: larger;
+    color: rgb(14, 18, 11);
+    
+}
+
+    </style>
+</head>
+<body>
+    <h1>COMBINATION SELECTOR</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Dolorem corrupti quaerat fugit non exercitationem, 
+         dignissimos sequi, doloremque dolor ducimus porro incidunt nobis beatae.
+          Sunt quam optio hic harum possimus eum?
+    </p>
+    <div>
+        <span>
+            <strong>THIS IS BOLD TEXT</strong>
+
+        </span>
+    </div>
+    <ul>
+        <li>this is option 1</li>
+        <li>this is option 2</li>
+        <li>this is option 3</li>
+        <li>this is option 4</li>
+        <li>this is option 5</li>
+        <li>this is option 6</li>
+    </ul>
+    <div id="id1">
+    <article>
+       <marquee>learning combination selectors today</marquee>
+    </article>
+
+    </div>
+</body>
+</html>
