@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 80%;
+            height: 300px;
+        }
+        .box{ width: 300px;
+            background-color: aqua;
+            margin-top: 20px;
+
+        }
+        .fiftyper{ 
+            width: 50%;
+        }
+        .fiftywht{
+            width: 50vw;
+        }
+        .pixel{ width: 200px;}
+    </style>
+</head>
+<body>
+    <h1>units in css</h1>
+    <!--pixels are absolute units-->
+    <!--relative units-->
+   <!-- % => relative to its parent
+    vw =>relative to its viewport's width--> 
+
+    <div> 
+        <img src="https://i0.wp.com/www.invajy.com/wp-content/uploads/2020/12/Good-morning-Quotes.jpg?resize=768%2C512&ssl=1"></img>
+    </div>
+    <div class="box pixel">have a</div>
+    <div class="box  fiftyper">nice day</div>
+    <div class="box fiftywht">and marvelous morning</div>
+
+    <div style="border:1ch solid black;width:500px;">
+       <div class=" box fiftyper">have a</div>
+       <div class=" box fiftywht">nice day</div>
+       <div class="box pixel">and marvelous morning</div>
+    </div>
+</body>
+</html>
