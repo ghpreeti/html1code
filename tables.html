@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        table, 
+        th,
+        td{
+            border:1px solid black;
+        }
+        table{
+            width: 80%;
+            border-collapse: collapse;
+            padding: 30px;
+        }
+        td{
+            text-align: center;
+        }
+        th{
+            height: 30px;
+            background-color: rgb(80, 195, 195);
+        }
+        tr:hover{
+            background-color: grey;
+        }
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABLES</h1>
+    <table>
+        <!-- <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>roll no.</th>
+        </tr>
+        <tr>
+            <td>preeti</td>
+            <td>singh</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>vanshika</td>
+            <td>singh</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>first name</td>
+            <td>last name</td>
+            <td>roll no.</td>
+        </tr>
+        <tr>
+            <td>preeti</td>
+            <td>singh</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>vanshika</td>
+            <td>singh</td>
+            <td>28</td>
+        </tr> -->
+        <tr colspan=""> 
+            <th colspan="2">OCTOBER</th>
+            <th colspan="2">NOVEMBER</th>
+        </tr>
+        <tr>
+            <td>sales</td>
+            <td> profit</td>
+            <td>sales</td>
+            <td> profit</td>
+        </tr>
+        <tr>
+            <td>$200,00</td>
+            <td>$50,00 </td>
+            <td>$300,000</td>
+            <td>$70,000</td>
+        </tr>
+        <tr>
+            <td colspan="4">NOVEMBER WAS MORE PRODUCTIVE</td>
+        
+        </tr>
+        
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>SUBJECT</th>
+            <th>MARKS</th>
+
+        </tr>
+        <tr>
+            <td rowspan="2">hillary</td>
+            <td>advanced web</td>
+            <td>75</td>
+            
+        </tr>
+        <tr>
+            
+            <td>operating system</td>
+            <td>60</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">larry</td>
+            
+            <td > advanced web</td>
+            <td>80</td>
+            
+        </tr>
+        <tr>
+            
+            <td>operating system</td>
+            <td>75</td>
+            
+        </tr>
+        
+        <tr><td></td>
+            <td colspan="2">total average:72.5</td></tr>
+
+        
+    </table>
+</body>
+</html>
